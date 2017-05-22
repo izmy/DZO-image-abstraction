@@ -27,9 +27,9 @@
           <li class="nav-item">
             <a class="nav-link active" href="image.php">Nahrát obrázek</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="db.php">Databáze obrázků</a>
-          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="log.php">LoG funkce</a>
+          </li>
         </ul>
       </div>
     </nav>

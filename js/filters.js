@@ -149,8 +149,8 @@ function draw() {
     img.style.display = 'none';
     var image = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var intens = getIntensities(image)
-    var sigma = 4
-    var kernelsize = 16
+    var sigma = 10
+    var kernelsize = 12
     var kernel = new gaussianKernel(sigma, kernelsize)
 
     var originalImage = copyImageData(image);
